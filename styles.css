@@ -1,0 +1,146 @@
+* {
+    background-color: black;
+}
+
+.logo {
+    color:white;
+    font-size: 15px;
+    text-align: left;
+}
+
+.header1{
+    color:white;
+    text-align:center;
+    font-size:50px;
+}
+
+.header2{
+    color:white;
+    font-size:30px;
+}
+
+.text1 {
+    color:white;
+    font-size:20px;
+}
+
+/* A */
+.container-1 {
+    display:flex;
+    margin-left:20%;
+    margin-right:2%;
+}
+
+
+.container-1-icon-box{
+    size:100%;
+    color:white;
+    border:1px solid white;
+    text-align:center;
+    margin-right:8px;
+    margin-bottom:40px;
+    cursor:pointer;
+}
+
+/* B */
+.container-2 {
+    display:flex;
+    margin-left:20%;
+    margin-right:20%;
+    margin-bottom:40px;
+}
+
+
+.container-2-icon-box{
+    size:100%;
+    color:white;
+    border:1px solid white;
+    text-align:center;
+    margin-right:8px;
+    cursor:pointer;
+}
+
+/* C */
+.container-3 {
+    display:flex;
+    margin-left:20%;
+    margin-right:20%;
+    margin-bottom:40px;
+}
+
+.container-3-icon-box{
+    size:100%;
+    color:white;
+    border:1px solid white;
+    text-align:center;
+    margin-right:8px;
+    cursor:pointer;
+}
+
+/* D */
+
+.container-4{
+    display:flex;
+    margin-left:20%;
+    margin-right:20%;
+    margin-bottom:40px;
+}
+
+.container-4-icon-box{
+    size:100%;
+    color:white;
+    border:1px solid white;
+    text-align:center;
+    margin-right:8px;
+    cursor:pointer;
+}
+
+/* E */
+
+.container-5{
+    display:flex;
+    margin-left:20%;
+    margin-right:20%;
+    margin-bottom:40px;
+}
+
+.container-5-icon-box{
+    size:100%;
+    color:white;
+    border:1px solid white;
+    text-align:center;
+    margin-right:8px;
+    cursor:pointer;
+}
+
+.main-container-for-page{
+   
+    width:1200px;
+    margin:auto;
+    margin-top:5%;
+}
+
+
+/* styling for slideshows */
+
+.w3-display-container{
+    position:relative;
+}
+
+.slideshow-button-display-left{
+background-color:white;
+font-size:30px;
+width:50px;
+position:absolute;
+top:49%;
+left:1%;
+}
+
+.slideshow-button-display-right{
+background-color:white;
+font-size:30px;
+width:50px;
+position:absolute;
+top:49%;
+left:94%;
+}

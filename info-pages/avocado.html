@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles.css">
+    <title>Avocado</title>
+</head>
+<body>
+    
+<div class="main-container-for-page">
+        <h1 class="header1">Avocadoes</h1>
+        <!-- image slideshow pannel for bad qualityl-->
+        <h2 class="header2">Indications that the fruit has gone bad:</h2>
+        <div class="w3-content w3-display-container">
+        <img class="mySlides" src="../img/avocado_bad/bad1.jpg" style="width:99%" height="600px">
+        <img class="mySlides" src="../img/avocado_bad/bad2.webp" style="width:99%" height="600px">
+
+        <!-- outsourced code for buttons to scroll the images-->
+
+        <button class="slideshow-button-display-left" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="slideshow-button-display-right" onclick="plusDivs(+1)">&#10095;</button>
+        
+         </div>
+
+         <h2 class="header2">How to inspect:</h2>
+         <li class="text1">Lightly poke it with finger from various sides. If you can easily push your finger into it, then it is overripe and should be 
+            removed from inventory.
+         </li>
+         <li class="text1">If you can see that it has turned from green to very dark brown, that is an indication that it is ripe and will start going bad soon.</li>
+
+         <h2 class="header2">Customer complaints:</h2>
+         <li class="text1">Ready to eat avocado was not ripe enough, and could not be eaten same day after purchase (supply issue).</li>
+
+
+</div>
+
+
+
+    
+
+
+
+</body>
+<script>
+    var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+</script>
+</html>
+
+<!-- 
+Cia turetu buti du DIV konteineriai, kuriuose galima butu spausti ir ziureti nuotraukas.
+ Vienas skirtas geriems pavyzdziams, o kitas blogiems.
+
+
+General shrinking guide.
+
+Tada apacioje laikymo tipsai.
+
+Ir Klientu nusiskundimai arba padarytos musu klaidos.
+
+
+manau, kol kas padaryti tik blogos kokybes vaisiu slideshow
+
+-->
